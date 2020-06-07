@@ -15,6 +15,7 @@
 		CEC18D7423E05DFF00C29D8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC18D7223E05DFF00C29D8B /* LaunchScreen.storyboard */; };
 		CEC18D7F23E05DFF00C29D8B /* dragAndDropsampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC18D7E23E05DFF00C29D8B /* dragAndDropsampleTests.swift */; };
 		CEC18D8A23E05DFF00C29D8B /* dragAndDropsampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC18D8923E05DFF00C29D8B /* dragAndDropsampleUITests.swift */; };
+		CEC18D9823E0613600C29D8B /* DragDropCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC18D9723E0613600C29D8B /* DragDropCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CEC18D8523E05DFF00C29D8B /* dragAndDropsampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dragAndDropsampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC18D8923E05DFF00C29D8B /* dragAndDropsampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dragAndDropsampleUITests.swift; sourceTree = "<group>"; };
 		CEC18D8B23E05DFF00C29D8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC18D9723E0613600C29D8B /* DragDropCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragDropCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				CEC18D6623E05DFC00C29D8B /* AppDelegate.swift */,
 				CEC18D6823E05DFC00C29D8B /* ViewController.swift */,
 				CEC18D6A23E05DFC00C29D8B /* Main.storyboard */,
+				CEC18D9723E0613600C29D8B /* DragDropCollectionViewCell.swift */,
 				CEC18D7023E05DFF00C29D8B /* Assets.xcassets */,
 				CEC18D7223E05DFF00C29D8B /* LaunchScreen.storyboard */,
 				CEC18D7523E05DFF00C29D8B /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				CEC18D6923E05DFC00C29D8B /* ViewController.swift in Sources */,
 				CEC18D6F23E05DFC00C29D8B /* dragAndDropsample.xcdatamodeld in Sources */,
+				CEC18D9823E0613600C29D8B /* DragDropCollectionViewCell.swift in Sources */,
 				CEC18D6723E05DFC00C29D8B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
